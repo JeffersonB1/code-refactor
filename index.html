@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon</title><!--create a more unique descriptive name for the title-->
+    <title>Horiseon</title>
 </head>
 
 <body>
-    <header><!--Instead of creating a class call header, use the header as an element-->
-        <h1>Hori<span>seo</span>n</h1><!--I deleted class seo-->
-        <!--I delete div and created nav semantic element-->
+    <!--Header Section-->
+    <header>
+        <h1>Hori<span>seo</span>n</h1>
         <nav>
             <ul>
                 <li>
@@ -28,12 +28,8 @@
     <!--Hero section-->
     <section class="hero"></section>
 
-<!--Horixontal Section-->>
+<!--Horixontal Section-->
     <div class="horizontal-container">
-        
-        <!--I added an id so when we click the header it bring us here
-        I also rename the class-->
-
         <!--Search Engine Optimization-->
         <section id="search-engine-optimization"   class="horizontal-content"> 
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
@@ -62,24 +58,24 @@
         </section>
     </div>
     <!--Vertical Section-->
-    <div class="benefits">
-        <div class="benefit-lead">
+    <div class="vertical-container">
+        <div class="vertical-content">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" alt="Benefit lead image" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="vertical-content">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt="Awareness image" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="vertical-content">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <img src="./assets/images/cost-management.png" alt="Cost Management image "/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
@@ -95,5 +91,4 @@
         </div>
     </footer>
 </body>
-
 </html>
